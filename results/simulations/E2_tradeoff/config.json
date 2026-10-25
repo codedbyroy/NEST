@@ -1,0 +1,24 @@
+{
+ "config": {
+  "pir_model": {
+   "p_move": 0.6,
+   "f_still": 0.3,
+   "bout_min": 10.0,
+   "p_still": 0.02,
+   "p_fa": 0.0005
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ },
+ "notes": "Baseline swept over timeout; NEST swept over grace period (window 5 min, warning 30 s)."
+}

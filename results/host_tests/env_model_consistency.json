@@ -1,0 +1,16 @@
+{
+ "datatest.txt": {
+  "n": 2660,
+  "max_abs_diff": 2.8315696410929903e-06,
+  "decision_agreement": 1.0,
+  "block_agreement_p_gt_6_11": 1.0,
+  "c_model_accuracy": 0.8319548872180451
+ },
+ "datatest2.txt": {
+  "n": 9747,
+  "max_abs_diff": 4.410511672992001e-06,
+  "decision_agreement": 1.0,
+  "block_agreement_p_gt_6_11": 1.0,
+  "c_model_accuracy": 0.7874217708012722
+ }
+}

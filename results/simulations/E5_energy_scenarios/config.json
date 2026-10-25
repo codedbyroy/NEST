@@ -1,0 +1,12 @@
+{
+ "config": {
+  "load_powers_W": {
+   "Bench 5 V fan (assumed 1 W)": 1.0,
+   "Lighting 8 x 18 W LED (assumed)": 144.0,
+   "4 ceiling fans x 60 W (assumed)": 240.0
+  },
+  "P_coil_W": 0.36,
+  "source_metrics": "E1 on-time"
+ },
+ "notes": "Estimated energy = on-time x assumed power; coil overhead under NC wiring = off-time x assumed coil power. Not measured."
+}

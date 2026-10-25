@@ -1,0 +1,46 @@
+{
+ "config": {
+  "pir_model": {
+   "p_move": 0.6,
+   "f_still": 0.3,
+   "bout_min": 10.0,
+   "p_still": 0.02,
+   "p_fa": 0.0005
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "controllers": {
+   "Fixed timeout 10 min (baseline)": {
+    "mode": "baseline",
+    "timeout": 600
+   },
+   "NEST PIR-only, fan (600 s)": {
+    "mode": "nest",
+    "load": "fan",
+    "grace": 600
+   },
+   "NEST PIR-only, lighting (180 s)": {
+    "mode": "nest",
+    "load": "lighting",
+    "grace": 180
+   },
+   "NEST hybrid beta=0.5, fan": {
+    "mode": "nest",
+    "load": "fan",
+    "grace": 600,
+    "beta": 0.5
+   }
+  }
+ },
+ "notes": "Real occupancy/T/RH (test1+test2, 8.62 days); synthetic PIR; per-day means and SD across 10 PIR seeds."
+}

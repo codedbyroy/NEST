@@ -1,0 +1,10 @@
+build/
+__pycache__/
+node_modules/
+*.bin
+*.elf
+.DS_Store
+*.log
+.env
+results/simulations/_inputs/
+results/nest/*_local.html

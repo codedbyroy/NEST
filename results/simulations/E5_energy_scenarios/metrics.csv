@@ -1,0 +1,13 @@
+controller,load,load_kWh_day,coil_kWh_day,always_on_kWh_day
+Fixed timeout 10 min (baseline),Bench 5 V fan (assumed 1 W),0.006611194223134522,0.0062599700796715715,0.024
+Fixed timeout 10 min (baseline),Lighting 8 x 18 W LED (assumed),0.9520119681313711,0.0062599700796715715,3.456
+Fixed timeout 10 min (baseline),4 ceiling fans x 60 W (assumed),1.5866866135522852,0.0062599700796715715,5.76
+"NEST PIR-only, fan (600 s)",Bench 5 V fan (assumed 1 W),0.006870039855114482,0.0061667856521587855,0.024
+"NEST PIR-only, fan (600 s)",Lighting 8 x 18 W LED (assumed),0.9892857391364855,0.0061667856521587855,3.456
+"NEST PIR-only, fan (600 s)",4 ceiling fans x 60 W (assumed),1.6488095652274757,0.0061667856521587855,5.76
+"NEST PIR-only, lighting (180 s)",Bench 5 V fan (assumed 1 W),0.006117315520300595,0.006437766412691786,0.024
+"NEST PIR-only, lighting (180 s)",Lighting 8 x 18 W LED (assumed),0.8808934349232856,0.006437766412691786,3.456
+"NEST PIR-only, lighting (180 s)",4 ceiling fans x 60 W (assumed),1.4681557248721429,0.006437766412691786,5.76
+"NEST hybrid beta=0.5, fan",Bench 5 V fan (assumed 1 W),0.02009772427682875,0.0014048192603416487,0.024
+"NEST hybrid beta=0.5, fan",Lighting 8 x 18 W LED (assumed),2.8940722958633405,0.0014048192603416487,3.456
+"NEST hybrid beta=0.5, fan",4 ceiling fans x 60 W (assumed),4.823453826438901,0.0014048192603416487,5.76

@@ -1,0 +1,22 @@
+{
+ "config": {
+  "pir_model": {
+   "p_move": 0.6,
+   "f_still": 0.3,
+   "bout_min": 10.0,
+   "p_still": 0.02,
+   "p_fa": 0.0005
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "room": "1R-1C, ASSUMED: R*q0=1 K, R*q1=2 K/occupied, R*Qc=12 K, setpoint 24+/-1 degC, comfort 26 degC",
+  "outdoor": "ASSUMED 27+/-5 degC diurnal, peak 15:00",
+  "occupancy": "real labels, test2 (6.77 days)"
+ },
+ "notes": "Simulated room and assumed parameters; screen=0 is an ablation in which cooling switch-offs are never vetoed."
+}
